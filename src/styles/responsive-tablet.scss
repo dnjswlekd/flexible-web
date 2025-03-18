@@ -1,14 +1,13 @@
 // Import Local SCSS files
-@import "variables", "fonts", "reset";
+@import 'variables', 'fonts', 'reset';
 
 /* Responsive for Tablet */
 @media (min-width: 768px) and (max-width: 1024px) {
-
   /* ############ Common CSS ############ */
   section:not(.front-slider) {
     padding: 35px 10px;
   }
-  [class*=inner] {
+  [class*='inner'] {
     width: 100%;
   }
 
@@ -20,8 +19,8 @@
         width: 300px;
       }
     }
-     /* Mega Navi */
-     .mega-navi {
+    /* Mega Navi */
+    .mega-navi {
       .mega-navi-inner {
         width: 100%;
         padding: 20px;
@@ -88,27 +87,8 @@
   }
 
   /* Section : Focus Class */
-  .focus-class-items {
-    .slick-dots {
-      li {
-        margin: 0;
-        width: 15px;
-        height: 15px;
-        margin-right: -3px;
-        button {
-          &:before {
-            font-size: 26px;
-          }
-          &:hover:before {
-            color: $crimson;
-          }
-        }
-        &.slick-active button:before {
-          color: $crimson;
-        }
-      }
-    }
-  }
+  // .focus-class-items {
+  // }
 
   /* Section : Best Class */
   .best-class {
@@ -242,6 +222,4 @@
       }
     }
   }
-
-
 }

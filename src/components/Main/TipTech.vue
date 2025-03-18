@@ -23,7 +23,7 @@
 
 <script setup>
 import { ref } from 'vue';
-import TipTechItem from './TipTechItem.vue';
+import TipTechItem from '@/components/main/TipTechItem.vue';
 
 // 팁 & 테크 아이템 데이터를 배열로 관리
 const tipTechItems = ref([

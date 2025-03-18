@@ -12,12 +12,12 @@
 </template>
 
 <script setup>
-import FrontSlider from '@/components/Main/FrontSlider.vue';
-import CategoryShortcut from '@/components/Main/CategoryShortcut.vue';
-import FocusClass from '@/components/Main/FocusClass.vue';
-import BestClass from '@/components/Main/BestClass.vue';
-import EarlyBird from '@/components/Main/EarlyBird.vue';
-import Blog from '@/components/Main/Blog.vue';
-import Slogan from '@/components/Main/Slogan.vue';
-import TipTech from '@/components/Main/TipTech.vue';
+import FrontSlider from '@/components/main/FrontSlider.vue';
+import CategoryShortcut from '@/components/main/CategoryShortcut.vue';
+import FocusClass from '@/components/main/FocusClass.vue';
+import BestClass from '@/components/main/BestClass.vue';
+import EarlyBird from '@/components/main/EarlyBird.vue';
+import Blog from '@/components/main/Blog.vue';
+import Slogan from '@/components/main/Slogan.vue';
+import TipTech from '@/components/main/TipTech.vue';
 </script>

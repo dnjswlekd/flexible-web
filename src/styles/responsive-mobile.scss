@@ -1,14 +1,13 @@
 // Import Local SCSS files
-@import "variables", "fonts", "reset";
+@import 'variables', 'fonts', 'reset';
 
 /* Responsive for Mobile */
 @media (max-width: 767px) {
-
   /* ############ Common CSS ############ */
   section:not(.front-slider) {
     padding: 35px 10px;
   }
-  [class*=inner] {
+  [class*='inner'] {
     width: 100% !important;
   }
   .front-header {
@@ -575,7 +574,6 @@
       width: 90%;
     }
   }
-
 }
 
 @media (min-width: 400px) and (max-width: 767px) {
@@ -583,4 +581,3 @@
     width: 560px;
   }
 }
-

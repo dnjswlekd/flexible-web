@@ -849,6 +849,12 @@ footer {
     .category-class-wrap {
       .focus-class-items {
         margin-bottom: 50px;
+        .focus-class-item {
+          transition: 0.3s ease;
+          &:hover {
+            transform: translateY(-5px);
+          }
+        }
       }
     }
     .paging {
