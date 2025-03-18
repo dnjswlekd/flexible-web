@@ -1,2 +1,4 @@
-@import './variables';
-@import './global'; // 공통 스타일
+@use './reset';
+@use './fonts';
+@use './variables';
+@use './global'; // 공통 스타일

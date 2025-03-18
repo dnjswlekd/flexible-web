@@ -1,11 +1,10 @@
 <template>
-  <DefaultLayout>
-    <div class="home-container">
-      <h1>Welcome to Home</h1>
-    </div>
-  </DefaultLayout>
+  <div>
+    <h1>Home Page</h1>
+    <p>Welcome to the home page!</p>
+  </div>
 </template>
 
 <script setup>
-import DefaultLayout from '@/layouts/MainLayout.vue';
+// 필요한 스크립트 코드
 </script>

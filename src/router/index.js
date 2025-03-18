@@ -1,14 +1,44 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import Home from '@/views/CategoryMainView.vue';
-import About from '@/views/ClassDetailView.vue';
-import Work from '@/views/MemberRegisterView.vue';
-import Contact from '@/views/TakeCourseView.vue';
+import MainLayout from '@/layouts/MainLayout.vue';
+// import AuthLayout from '@/layouts/AuthLayout.vue';
 
 const routes = [
-  { path: '/', component: Home },
-  { path: '/about', component: About },
-  { path: '/work', component: Work },
-  { path: '/contact', component: Contact },
+  {
+    path: '/',
+    component: () => import('@/views/MainView.vue'),
+    name: 'home',
+  },
+  {
+    path: '/categoryMain',
+    component: () => import('@/views/CategoryMainView.vue'),
+    name: 'categoryMain',
+  },
+  {
+    path: '/classDetail',
+    component: () => import('@/views/ClassDetailView.vue'),
+    name: 'classDetail',
+  },
+  {
+    path: '/memberRegister',
+    component: () => import('@/views/MemberRegisterView.vue'),
+    name: 'memberRegister',
+  },
+  {
+    path: '/takeCourse',
+    component: () => import('@/views/TakeCourseView.vue'),
+    name: 'takeCourse',
+  },
+
+  // {
+  //   path: '/login',
+  //   component: AuthLayout,
+  //   children: [
+  //     {
+  //       path: '',
+  //       component: Login,
+  //     },
+  //   ],
+  // },
 ];
 
 const router = createRouter({

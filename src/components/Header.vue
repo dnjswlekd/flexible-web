@@ -1,21 +1,9 @@
 <template>
   <header>
-    <nav>
-      <ul>
-        <li><router-link to="/">Home</router-link></li>
-        <li><router-link to="/about">About</router-link></li>
-        <li><router-link to="/work">Work</router-link></li>
-        <li><router-link to="/contact">Contact</router-link></li>
-      </ul>
-    </nav>
+    <h1>My Website</h1>
   </header>
 </template>
 
-<script setup></script>
-
-<style scoped>
-nav ul {
-  display: flex;
-  gap: 20px;
-}
-</style>
+<script setup>
+// 헤더 컴포넌트 관련 스크립트
+</script>

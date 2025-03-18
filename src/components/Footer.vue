@@ -1,9 +1,9 @@
 <template>
-  <footer class="footer">
-    <p>© 2025 My Portfolio</p>
+  <footer>
+    <p>&copy; 2025 My Website</p>
   </footer>
 </template>
 
-<script setup></script>
-
-<style lang="scss" scoped></style>
+<script setup>
+// 푸터 컴포넌트 관련 스크립트
+</script>

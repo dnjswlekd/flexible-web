@@ -1,16 +1,10 @@
 <template>
   <div>
-    <!-- 컴포넌트 내용 -->
+    <h1>MemberRegisterView Page</h1>
+    <p>Welcome to the home page!</p>
   </div>
 </template>
 
-<script>
-export default {
-  name: 'ClassDetailView',
-  // 필요한 스크립트 로직
-};
+<script setup>
+// 필요한 스크립트 코드
 </script>
-
-<style scoped>
-/* 스타일 작성 */
-</style>
