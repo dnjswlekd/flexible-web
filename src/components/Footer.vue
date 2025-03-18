@@ -4,15 +4,50 @@
       <div class="lnb-wrap">
         <div class="footer-slogan">
           <h2>
-            트렌드 그 이상의 클래스,<br />
+            트랜드 그 이상의 클래스,<br />
             비욘드 인사이트
           </h2>
         </div>
         <div class="lnb">
-          <LinkItem title="비욘드 클래스" :links="beyondClassLinks" />
-          <LinkItem title="클래스 공유자 지원" :links="classSupportLinks" />
-          <LinkItem title="고객센터" :links="customerServiceLinks" />
-          <LinkItem title="CONTACT" :links="contactInfo" isContactInfo />
+          <div class="link-item">
+            <div class="link-item-title">비욘드 클래스</div>
+            <div class="link-item-content">
+              <a href="#none">앱 다운로드</a>
+              <a href="#none">코드 교환</a>
+              <a href="#none">브랜드</a>
+              <a href="#none">단체 교육</a>
+              <a href="#none">공지사항</a>
+              <a href="#none">채용안내</a>
+            </div>
+          </div>
+          <div class="link-item">
+            <div class="link-item-title">클래스 공유자 지원</div>
+            <div class="link-item-content">
+              <a href="#none">클래스 개설</a>
+              <a href="#none">스튜디오 대여</a>
+              <a href="#none">클래스 개설 소개 자료</a>
+              <a href="#none">멘토 교육 지원</a>
+            </div>
+          </div>
+          <div class="link-item">
+            <div class="link-item-title">고객센터</div>
+            <div class="link-item-content">
+              <a href="#none">공지사항</a>
+              <a href="#none">이용약관</a>
+              <a href="#none">개인정보처리방침</a>
+              <a href="#none">FAQ</a>
+              <a href="#none">환불규정</a>
+            </div>
+          </div>
+          <div class="link-item">
+            <div class="link-item-title">CONTACT</div>
+            <div class="link-item-content">
+              환불문의: refund@beyond-i.com<br />
+              기타문의: help@beyond-i.com<br />
+              고객센터: 02-555-5555<br />
+              (주중 10시~18시 / 주말 및 공휴일 제외)
+            </div>
+          </div>
         </div>
       </div>
       <div class="copyright-wrap">
@@ -36,40 +71,3 @@
     </div>
   </footer>
 </template>
-
-<script setup>
-import LinkItem from '@/components/LinkItem.vue';
-
-const beyondClassLinks = [
-  { text: '앱 다운로드', url: '#none' },
-  { text: '코드 교환', url: '#none' },
-  { text: '브랜드', url: '#none' },
-  { text: '단체 교육', url: '#none' },
-  { text: '공지사항', url: '#none' },
-  { text: '채용안내', url: '#none' },
-];
-
-const classSupportLinks = [
-  { text: '클래스 개설', url: '#none' },
-  { text: '스튜디오 대여', url: '#none' },
-  { text: '클래스 개설 소개 자료', url: '#none' },
-  { text: '멘토 교육 지원', url: '#none' },
-];
-
-const customerServiceLinks = [
-  { text: '공지사항', url: '#none' },
-  { text: '이용약관', url: '#none' },
-  { text: '개인정보처리방침', url: '#none' },
-  { text: 'FAQ', url: '#none' },
-  { text: '환불규정', url: '#none' },
-];
-
-const contactInfo = `
-  환불문의: refund@beyond-i.com<br>
-  기타문의: help@beyond-i.com<br>
-  고객센터: 02-555-5555<br>
-  (주중 10시~18시 / 주말 및 공휴일 제외)
-`;
-</script>
-
-<style scoped></style>

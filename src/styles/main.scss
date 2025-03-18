@@ -1,5 +1,5 @@
 /* Import Local SCSS Files */
-@import 'variables', 'reset', 'fonts';
+@import 'variables', 'reset', 'fonts', 'responsive-tablet', 'responsive-mobile';
 
 /* Mixin Group */
 @mixin close-modal {
@@ -487,12 +487,13 @@ header {
           flex-direction: column;
           justify-content: space-between;
           .best-class-items {
+            flex-wrap: wrap;
             gap: 15px;
             display: flex;
             .best-class-item {
+              flex: 1 1 calc(50% - 20px);
               display: flex;
               gap: 15px;
-              flex: 1;
               cursor: pointer;
               .thum {
                 width: 130px;
@@ -525,7 +526,7 @@ header {
   background-color: $cloudy-gray;
   .early-bird-inner {
     .early-bird-content {
-      .coundown-wrap {
+      .countdown-wrap {
         width: 600px;
         margin: auto;
         margin-bottom: 50px;
@@ -658,13 +659,14 @@ header {
       .tip-tech-wrap {
         .tip-tech-items {
           display: flex;
+          flex-wrap: wrap;
           gap: 30px;
           margin: 20px 0;
           &:last-child .tip-tech-item {
             border: none;
           }
           .tip-tech-item {
-            flex: 1;
+            flex: 1 1 calc(50% - 20px);
             display: flex;
             gap: 15px;
             border-bottom: 1px solid $silver-gray;
