@@ -16,33 +16,4 @@
 // 특별한 데이터나 로직이 없다면 script는 비워도 됩니다.
 </script>
 
-<style lang="scss" scoped>
-.slogan {
-  text-align: center;
-  .slogan-inner {
-    padding: 2rem;
-    background-color: #f1f1f1;
-  }
-
-  .slogan-content {
-    text-align: center;
-
-    h1 {
-      font-size: 2.5rem;
-      font-weight: bold;
-      color: #333;
-      margin-bottom: 1rem;
-    }
-
-    span {
-      font-size: 1.1rem;
-      color: #555;
-
-      em {
-        font-weight: bold;
-        color: #007bff;
-      }
-    }
-  }
-}
-</style>
+<style lang="scss" scoped></style>

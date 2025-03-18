@@ -69,45 +69,4 @@ const tipTechItems = ref([
 ]);
 </script>
 
-<style lang="scss" scoped>
-.tip-tech {
-  .tip-tech-inner {
-    padding: 2rem;
-  }
-
-  .tip-tech-content {
-    .front-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 2rem;
-
-      h2 {
-        font-size: 2rem;
-        font-weight: bold;
-        color: #333;
-      }
-
-      a {
-        font-size: 1rem;
-        color: #007bff;
-        text-decoration: none;
-      }
-    }
-
-    .tip-tech-wrap {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 1.5rem;
-    }
-
-    .btn-tip-tech {
-      display: block;
-      margin-top: 2rem;
-      font-size: 1rem;
-      color: #007bff;
-      text-decoration: none;
-    }
-  }
-}
-</style>
+<style lang="scss" scoped></style>

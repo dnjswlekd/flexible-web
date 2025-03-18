@@ -53,31 +53,4 @@ const categories = ref([
 ]);
 </script>
 
-<style lang="scss" scoped>
-.category-shortcut {
-  .category-shortcut-inner {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-  .category-shortcut-item {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    padding: 10px;
-    text-decoration: none;
-    color: #333;
-    font-size: 14px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    transition: background 0.3s;
-    &:hover {
-      background: #f5f5f5;
-    }
-    i {
-      font-size: 18px;
-    }
-  }
-}
-</style>
+<style lang="scss" scoped></style>

@@ -60,47 +60,4 @@ const blogItems = ref([
 ]);
 </script>
 
-<style lang="scss" scoped>
-.blog {
-  .blog-inner {
-    padding: 2rem;
-    background-color: #f9f9f9;
-  }
-
-  .blog-content {
-    .front-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 2rem;
-
-      h2 {
-        font-size: 2rem;
-        font-weight: bold;
-        color: #333;
-      }
-
-      .btn-view-all {
-        font-size: 1rem;
-        color: #007bff;
-        text-decoration: none;
-        border: 1px solid #007bff;
-        padding: 0.5rem 1rem;
-        border-radius: 5px;
-        transition: background-color 0.3s;
-
-        &:hover {
-          background-color: #007bff;
-          color: #fff;
-        }
-      }
-    }
-
-    .blog-items {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 1.5rem;
-    }
-  }
-}
-</style>
+<style lang="scss" scoped></style>
