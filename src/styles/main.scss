@@ -1118,7 +1118,7 @@ footer {
         text-align: center;
         padding-top: 100px;
         padding-bottom: 50px;
-        display: none;
+        // display: none;
         p {
           margin-top: 5px;
           margin-bottom: 25px;
@@ -1221,7 +1221,8 @@ footer {
                 height: 20px;
                 margin-right: 3px;
                 transform: translateY(3px);
-                background: url('/images/icon-custom-radio.png') no-repeat;
+                background: url('/src/assets/images/icon-custom-radio.png')
+                  no-repeat;
                 background-position: left;
               }
               &:checked + em {

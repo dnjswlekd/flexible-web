@@ -816,10 +816,7 @@
               </div>
             </div>
             <div class="class-detail-sidebar-wrap group-main-action">
-              <button
-                class="btn-primary btn-register"
-                onclick="location.href='/html/take-course.html'"
-              >
+              <button class="btn-primary btn-register" @click="goToTake">
                 수강신청 하기
               </button>
               <div class="cart-confirm-wrap">
@@ -829,10 +826,7 @@
                 <div class="cart-confirm">
                   <button class="btn-close">&times;</button>
                   <span>강의가 수강바구니에 담겼습니다.</span>
-                  <button
-                    class="btn-cart-check"
-                    onclick="location.href='/html/take-course.html'"
-                  >
+                  <button class="btn-cart-check" @click="goToTake">
                     수강바구니 바로가기
                   </button>
                 </div>
@@ -928,4 +922,12 @@ onMounted(() => {
 onUnmounted(() => {
   window.removeEventListener('scroll', handleScroll);
 });
+
+import { useRouter } from 'vue-router'; // useRouter 훅을 import
+
+const router = useRouter(); // router를 정의
+
+const goToTake = () => {
+  router.push({ name: 'takeCourse' });
+};
 </script>
