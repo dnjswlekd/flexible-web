@@ -10,57 +10,59 @@ import 'swiper/swiper-bundle.css';
 
 <template>
   <section class="focus-class">
-    <div class="focus-class-inner">
-      <div class="focus-class-content">
-        <div
-          class="front-header"
-          v-for="(header, index) in headers"
-          :key="index"
-        >
-          <h2>{{ header.title }}</h2>
-          <a :href="header.link" class="btn-view-all">{{
-            header.buttonText
-          }}</a>
+    <div class="focus-class">
+      <div class="focus-class-inner">
+        <div class="focus-class-content">
+          <div
+            class="front-header"
+            v-for="(header, index) in headers"
+            :key="index"
+          >
+            <h2>{{ header.title }}</h2>
+            <a :href="header.link" class="btn-view-all">{{
+              header.buttonText
+            }}</a>
+          </div>
+          <!-- Swiper 사용 -->
+          <Swiper
+            :spaceBetween="30"
+            :slidesPerView="4"
+            :navigation="true"
+            :loop="true"
+          >
+            <SwiperSlide v-for="item in classes1" :key="item.id">
+              <FocusClassItem :item="item" />
+            </SwiperSlide>
+          </Swiper>
         </div>
-        <!-- Swiper 사용 -->
-        <Swiper
-          :spaceBetween="30"
-          :slidesPerView="4"
-          :navigation="true"
-          :loop="true"
-        >
-          <SwiperSlide v-for="item in classes1" :key="item.id">
-            <FocusClassItem :item="item" />
-          </SwiperSlide>
-        </Swiper>
       </div>
     </div>
-  </section>
 
-  <section class="focus-class">
-    <div class="focus-class-inner">
-      <div class="focus-class-content">
-        <div
-          class="front-header"
-          v-for="(header, index) in headers"
-          :key="index"
-        >
-          <h2>{{ header.title }}</h2>
-          <a :href="header.link" class="btn-view-all">{{
-            header.buttonText
-          }}</a>
+    <div class="focus-class">
+      <div class="focus-class-inner">
+        <div class="focus-class-content">
+          <div
+            class="front-header"
+            v-for="(header, index) in headers"
+            :key="index"
+          >
+            <h2>{{ header.title }}</h2>
+            <a :href="header.link" class="btn-view-all">{{
+              header.buttonText
+            }}</a>
+          </div>
+          <!-- Swiper 사용 -->
+          <Swiper
+            :spaceBetween="30"
+            :slidesPerView="4"
+            :navigation="true"
+            :loop="true"
+          >
+            <SwiperSlide v-for="item in classes2" :key="item.id">
+              <FocusClassItem :item="item" />
+            </SwiperSlide>
+          </Swiper>
         </div>
-        <!-- Swiper 사용 -->
-        <Swiper
-          :spaceBetween="30"
-          :slidesPerView="4"
-          :navigation="true"
-          :loop="true"
-        >
-          <SwiperSlide v-for="item in classes2" :key="item.id">
-            <FocusClassItem :item="item" />
-          </SwiperSlide>
-        </Swiper>
       </div>
     </div>
   </section>
