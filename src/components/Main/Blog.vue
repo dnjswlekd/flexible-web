@@ -20,7 +20,7 @@
 
 <script setup>
 import { ref } from 'vue';
-import BlogItem from './BlogItem.vue';
+import BlogItem from '@/components/main/BlogItem.vue';
 
 // 블로그 아이템 데이터를 배열로 관리
 const blogItems = ref([

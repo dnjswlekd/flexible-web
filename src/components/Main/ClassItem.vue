@@ -5,14 +5,18 @@ const props = defineProps({
   item: Object,
 });
 
-const goToDetail = (url) => {
-  window.location.href = url;
+import { useRouter } from 'vue-router';
+
+const router = useRouter();
+
+const goToDetail = () => {
+  router.push({ name: 'classDetail' });
 };
 </script>
 
 <template>
   <div class="focus-class-items">
-    <div class="focus-class-item" @click="goToDetail(item.link)">
+    <div class="focus-class-item" @click="goToDetail">
       <div class="thum">
         <img :src="item.img" :alt="item.title" />
         <span class="badge discount">30% 할인</span>

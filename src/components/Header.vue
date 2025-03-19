@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header :class="{ active: isScrolled }">
     <div class="header-inner">
       <div class="logo-search">
         <div class="logo">
@@ -46,13 +46,14 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { ref, onMounted, onUnmounted } from 'vue';
 
 const logoSrc = 'src/assets/images/logo-beyond-insight.png';
 const avatarSrc = 'src/assets/images/mentor-avatar-21.jpg';
 const cartCount = ref(2);
 const alarmCount = ref(9);
 const searchQuery = ref('');
+const isScrolled = ref(false);
 
 const openLoginModal = () => {
   // 로그인 모달을 여는 로직 (모달 관리 상태 추가 필요)
@@ -61,6 +62,23 @@ const openLoginModal = () => {
 const redirectToRegister = () => {
   window.location.href = '/html/member-register.html';
 };
+
+// Scroll 이벤트 처리 함수
+const handleScroll = () => {
+  if (window.scrollY > 150) {
+    isScrolled.value = true;
+  } else {
+    isScrolled.value = false;
+  }
+};
+
+onMounted(() => {
+  window.addEventListener('scroll', handleScroll);
+});
+
+onUnmounted(() => {
+  window.removeEventListener('scroll', handleScroll);
+});
 </script>
 
 <style scoped></style>

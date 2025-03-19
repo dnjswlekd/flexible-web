@@ -6,10 +6,6 @@ import FocusClassItem from './ClassItem.vue';
 // Swiper import
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/swiper-bundle.css';
-
-const goToDetail = (url) => {
-  window.location.href = url;
-};
 </script>
 
 <template>

@@ -1247,7 +1247,8 @@ footer {
 /* ############ Class Detail : class-detail.html ############ */
 .class-detail-image {
   padding: 0 !important;
-  background: url('/images/ct-class-detail-main-01.png') no-repeat center center;
+  background: url('src/assets/images/ct-class-detail-main-01.png') no-repeat
+    center center;
   background-size: cover;
   .class-detail-image-inner {
     height: 600px;
