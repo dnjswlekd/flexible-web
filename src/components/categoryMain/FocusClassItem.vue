@@ -1,5 +1,5 @@
 <template>
-  <div class="focus-class-items">
+  <div>
     <div class="focus-class-item" @click="goToDetail">
       <div class="thum">
         <img :src="item.image" :alt="item.title" />
