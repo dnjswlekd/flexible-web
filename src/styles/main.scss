@@ -1992,7 +1992,7 @@ footer {
   width: 100%;
   height: 100%;
   z-index: 1000;
-  display: none;
+  // display: none;
   .member-login {
     width: 360px;
     background-color: $white;
@@ -2024,19 +2024,19 @@ footer {
         background-size: 20px;
         color: $white;
         &.kakao {
-          background-image: url('/images/icon-kakao.svg');
+          background-image: url('src/assets/images/icon-kakao.svg');
           background-color: #ffd912;
         }
         &.facebook {
-          background-image: url('/images/icon-facebook.svg');
+          background-image: url('src/assets/images/icon-facebook.svg');
           background-color: #006be5;
         }
         &.apple {
-          background-image: url('/images/icon-apple.svg');
+          background-image: url('src/assets/images/icon-apple.svg');
           background-color: #333;
         }
         &.email {
-          background-image: url('/images/icon-email.svg');
+          background-image: url('src/assets/images/icon-email.svg');
           background-color: #fff;
           border: 1px solid $dim-gray;
           color: $dark-black;
