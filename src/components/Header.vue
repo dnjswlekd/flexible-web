@@ -60,7 +60,7 @@ const openLoginModal = () => {
 };
 
 const redirectToRegister = () => {
-  window.location.href = '/html/member-register.html';
+  router.push({ name: 'memberRegister' });
 };
 
 // Scroll 이벤트 처리 함수
