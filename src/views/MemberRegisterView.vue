@@ -10,15 +10,33 @@
         </div>
         <div class="login-field">
           <div>
-            <input type="email" placeholder="이메일" />
+            <input type="email" v-model="email" placeholder="이메일" />
           </div>
           <div>
-            <input type="password" placeholder="비밀번호" maxlength="12" />
-            <i class="toggle-pw bi bi-eye-slash"></i>
+            <input
+              :type="passwordVisible ? 'text' : 'password'"
+              v-model="password"
+              placeholder="비밀번호"
+              maxlength="12"
+            />
+            <i
+              class="toggle-pw bi"
+              :class="passwordVisible ? 'bi-eye' : 'bi-eye-slash'"
+              @click="togglePasswordVisibility"
+            ></i>
           </div>
           <div>
-            <input type="password" placeholder="비밀번호 확인" maxlength="12" />
-            <i class="toggle-pw bi bi-eye-slash"></i>
+            <input
+              :type="passwordConfirmVisible ? 'text' : 'password'"
+              v-model="passwordConfirm"
+              placeholder="비밀번호 확인"
+              maxlength="12"
+            />
+            <i
+              class="toggle-pw bi"
+              :class="passwordConfirmVisible ? 'bi-eye' : 'bi-eye-slash'"
+              @click="togglePasswordConfirmVisibility"
+            ></i>
           </div>
           <button class="btn-member-primary">가입하기</button>
         </div>
@@ -29,8 +47,8 @@
             동의합니다.
           </p>
           <label>
-            <input type="checkbox" /><em></em>할인 혜택 및 마케팅 정보 수신을
-            동의합니다.
+            <input type="checkbox" v-model="agreeMarketing" /><em></em>할인 혜택
+            및 마케팅 정보 수신을 동의합니다.
           </label>
         </div>
         <div class="login-member">
@@ -42,5 +60,22 @@
 </template>
 
 <script setup>
-// 필요한 스크립트 코드
+import { ref } from 'vue';
+
+// 반응형 상태 변수들
+const email = ref('');
+const password = ref('');
+const passwordConfirm = ref('');
+const passwordVisible = ref(false);
+const passwordConfirmVisible = ref(false);
+const agreeMarketing = ref(false);
+
+// 비밀번호 보이기/숨기기 토글 함수들
+const togglePasswordVisibility = () => {
+  passwordVisible.value = !passwordVisible.value;
+};
+
+const togglePasswordConfirmVisibility = () => {
+  passwordConfirmVisible.value = !passwordConfirmVisible.value;
+};
 </script>
