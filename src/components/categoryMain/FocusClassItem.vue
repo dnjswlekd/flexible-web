@@ -34,28 +34,23 @@
   </div>
 </template>
 
-<script>
-import { defineComponent } from 'vue';
+<script setup>
+import { defineProps } from 'vue';
+import { useRouter } from 'vue-router'; // useRouter 훅을 import
 
-export default defineComponent({
-  name: 'FocusClassItem',
-  props: {
-    item: {
-      type: Object,
-      required: true,
-    },
-  },
-  setup(props) {
-    const goToDetail = () => {
-      // 해당 클래스의 상세 페이지로 이동
-      window.location.href = '/html/class-detail.html';
-    };
+const router = useRouter(); // router를 정의
 
-    return {
-      goToDetail,
-    };
+const props = defineProps({
+  item: {
+    type: Object,
+    required: true,
   },
 });
+
+const goToDetail = () => {
+  // 해당 클래스의 상세 페이지로 이동
+  router.push({ name: 'classDetail' });
+};
 </script>
 
 <style scoped>

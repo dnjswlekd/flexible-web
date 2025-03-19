@@ -3,7 +3,7 @@
     <div class="header-inner">
       <div class="logo-search">
         <div class="logo">
-          <a href="/index.html"><img :src="logoSrc" alt="Logo" /></a>
+          <button @click="goToMain"><img :src="logoSrc" alt="Logo" /></button>
         </div>
         <div class="search">
           <input
@@ -79,6 +79,14 @@ onMounted(() => {
 onUnmounted(() => {
   window.removeEventListener('scroll', handleScroll);
 });
+
+import { useRouter } from 'vue-router'; // useRouter 훅을 import
+
+const router = useRouter(); // router를 정의
+
+const goToMain = () => {
+  router.push({ name: 'home' });
+};
 </script>
 
 <style scoped></style>
