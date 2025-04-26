@@ -3,7 +3,9 @@
     <div class="header-inner">
       <div class="logo-search">
         <div class="logo">
-          <button @click="goToMain"><img :src="logoSrc" alt="Logo" /></button>
+          <button @click="goToMain">
+            <img :src="logo" alt="Logo" />
+          </button>
         </div>
         <div class="search">
           <input
@@ -11,7 +13,7 @@
             type="text"
             placeholder="어떤 강의를 찾으시나요?"
           />
-          <img src="@/assets/images/bi-search.svg" alt="Search Icon" />
+          <img :src="searchIcon" alt="Search Icon" />
         </div>
 
         <div class="login-register-buttons">
@@ -28,7 +30,7 @@
             <i class="bi bi-bell"></i><em :data-count="alarmCount"></em>
           </span>
           <span class="avatar">
-            <img :src="avatarSrc" alt="User Avatar" />
+            <img :src="avatar" alt="User Avatar" />
           </span>
         </div>
       </div>
@@ -52,8 +54,10 @@ import { ref, onMounted, onUnmounted } from 'vue';
 import { useRouter } from 'vue-router';
 import LoginModal from '@/components/LoginModal.vue';
 
-const logoSrc = '@/assets/images/logo-beyond-insight.png';
-const avatarSrc = '@/assets/images/mentor-avatar-21.jpg';
+import logo from '@/assets/images/favicon.png';
+import searchIcon from '@/assets/images/bi-search.svg';
+import avatar from '@/assets/images/mentor-avatar-21.jpg';
+
 const cartCount = ref(2);
 const alarmCount = ref(9);
 const searchQuery = ref('');
@@ -77,11 +81,7 @@ const redirectToRegister = () => {
 };
 
 const handleScroll = () => {
-  if (window.scrollY > 150) {
-    isScrolled.value = true;
-  } else {
-    isScrolled.value = false;
-  }
+  isScrolled.value = window.scrollY > 150;
 };
 
 onMounted(() => {

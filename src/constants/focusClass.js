@@ -1,7 +1,20 @@
+import classImage01 from '@/assets/images/beyond-class-category-cover-01.png';
+import classImage02 from '@/assets/images/beyond-class-category-cover-02.png';
+import classImage03 from '@/assets/images/beyond-class-category-cover-03.png';
+import classImage07 from '@/assets/images/beyond-class-category-cover-07.png';
+import classImage08 from '@/assets/images/beyond-class-category-cover-08.png';
+import classImage09 from '@/assets/images/beyond-class-category-cover-09.png';
+import classImage10 from '@/assets/images/beyond-class-category-cover-10.png';
+import classImage11 from '@/assets/images/beyond-class-category-cover-11.png';
+import classImage12 from '@/assets/images/beyond-class-category-cover-12.png';
+import classImage13 from '@/assets/images/beyond-class-category-cover-13.png';
+import classImage14 from '@/assets/images/beyond-class-category-cover-14.png';
+import classImage15 from '@/assets/images/beyond-class-category-cover-15.png';
+
 export const allClassItems = [
   {
     title: '[2022년 출제기준] 웹디자인기능사 실기시험 완벽 가이드',
-    image: '@/assets/images/beyond-class-category-cover-01.png',
+    image: classImage01,
     discount: '30% 할인',
     instructor: '코딩웍스',
     lessons: '80강',
@@ -16,7 +29,7 @@ export const allClassItems = [
   },
   {
     title: '퍼블리싱 핵심이론 PDF 교재 및 예제파일',
-    image: '@/assets/images/beyond-class-category-cover-02.png',
+    image: classImage02,
     discount: '30% 할인',
     instructor: '코딩웍스',
     lessons: '80강',
@@ -31,7 +44,7 @@ export const allClassItems = [
   },
   {
     title: 'HTML+CSS+JS 포트폴리오 실전 퍼블리싱(시즌1)',
-    image: '@/assets/images/beyond-class-category-cover-03.png',
+    image: classImage03,
     discount: '30% 할인',
     instructor: '코딩웍스',
     lessons: '80강',
@@ -46,7 +59,7 @@ export const allClassItems = [
   },
   {
     title: '그리드(Grid) 핵심이론 및 실전 활용',
-    image: '@/assets/images/beyond-class-category-cover-07.png',
+    image: classImage07,
     discount: '30% 할인',
     instructor: '코딩웍스',
     lessons: '80강',
@@ -62,7 +75,7 @@ export const allClassItems = [
   },
   {
     title: "면접과 취업을 부르는 '개인 포트폴리오 홈페이지' 제작",
-    image: '@/assets/images/beyond-class-category-cover-08.png',
+    image: classImage08,
     discount: '30% 할인',
     instructor: '코딩웍스',
     lessons: '80강',
@@ -78,7 +91,7 @@ export const allClassItems = [
   },
   {
     title: '반응형 웹사이트 포트폴리오(App Official Landing)',
-    image: '@/assets/images/beyond-class-category-cover-09.png',
+    image: classImage09,
     discount: '30% 할인',
     instructor: '코딩웍스',
     lessons: '80강',
@@ -94,7 +107,7 @@ export const allClassItems = [
   },
   {
     title: 'HTML+CSS+JS 포트폴리오 실전 퍼블리싱(시즌2)',
-    image: '@/assets/images/beyond-class-category-cover-10.png',
+    image: classImage10,
     discount: '30% 할인',
     instructor: '코딩웍스',
     lessons: '80강',
@@ -110,7 +123,7 @@ export const allClassItems = [
   },
   {
     title: 'SCSS(SASS) FLEX GRID 핵심이론(PDF) 교재/활용예제',
-    image: '@/assets/images/beyond-class-category-cover-11.png',
+    image: classImage11,
     discount: '30% 할인',
     instructor: '코딩웍스',
     lessons: '80강',
@@ -126,7 +139,7 @@ export const allClassItems = [
   },
   {
     title: 'SCSS(SASS)+GRID+FLEX 실전 포트폴리오',
-    image: '@/assets/images/beyond-class-category-cover-12.png',
+    image: classImage12,
     discount: '30% 할인',
     instructor: '코딩웍스',
     lessons: '80강',
@@ -142,7 +155,7 @@ export const allClassItems = [
   },
   {
     title: '중상급 퍼블리싱을 위한 CSS3의 모든 것',
-    image: '@/assets/images/beyond-class-category-cover-13.png',
+    image: classImage13,
     discount: '30% 할인',
     instructor: '코딩웍스',
     lessons: '80강',
@@ -158,7 +171,7 @@ export const allClassItems = [
   },
   {
     title: '퍼블리셔 개인 포트폴리오 홈페이지 제작 완벽 가이드',
-    image: '@/assets/images/beyond-class-category-cover-14.png',
+    image: classImage14,
     discount: '30% 할인',
     instructor: '코딩웍스',
     lessons: '80강',
@@ -174,7 +187,7 @@ export const allClassItems = [
   },
   {
     title: '퍼블리셔 취업하는 훌륭한 이력서 작성 가이드',
-    image: '@/assets/images/beyond-class-category-cover-15.png',
+    image: classImage15,
     discount: '30% 할인',
     instructor: '코딩웍스',
     lessons: '80강',
@@ -190,7 +203,7 @@ export const allClassItems = [
   },
   // {
   //   title: '모바일 웹 퍼블리싱 포트폴리오 with Figma',
-  //   image: '@/assets/images/beyond-class-category-cover-16.png',
+  //   image: classImage16,
   //   discount: '30% 할인',
   //   instructor: '코딩웍스',
   //   lessons: '80강',

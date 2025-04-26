@@ -53,6 +53,4 @@ const goToDetail = () => {
 };
 </script>
 
-<style scoped>
-/* 스타일을 적절히 추가합니다 */
-</style>
+<style scoped></style>

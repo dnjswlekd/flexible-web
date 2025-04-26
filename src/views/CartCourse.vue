@@ -33,6 +33,12 @@ import CartItems from '@/components/cartCourse/CartItems.vue';
 import CartEmpty from '@/components/cartCourse/CartEmpty.vue';
 import Payment from '@/components/cartCourse/Payment.vue';
 
+// 이미지 import
+import classImage1 from '@/assets/images/beyond-class-category-cover-16.png';
+import classImage2 from '@/assets/images/beyond-class-category-cover-03.png';
+import classImage3 from '@/assets/images/beyond-class-category-cover-01.png';
+import classImage4 from '@/assets/images/beyond-class-category-cover-17.png';
+
 const router = useRouter();
 
 const cartItems = ref([
@@ -46,7 +52,7 @@ const cartItems = ref([
     discount: 30,
     originalPrice: '132,000',
     currentPrice: '92,400',
-    image: '@/assets/images/beyond-class-category-cover-16.png',
+    image: classImage1,
     checked: false,
   },
   {
@@ -58,7 +64,7 @@ const cartItems = ref([
     discount: 20,
     originalPrice: '46,200',
     currentPrice: '36,960',
-    image: '@/assets/images/beyond-class-category-cover-03.png',
+    image: classImage2,
     checked: false,
   },
   {
@@ -71,7 +77,7 @@ const cartItems = ref([
     discount: 15,
     originalPrice: '166,100',
     currentPrice: '141,185',
-    image: '@/assets/images/beyond-class-category-cover-01.png',
+    image: classImage3,
     checked: false,
   },
   {
@@ -83,7 +89,7 @@ const cartItems = ref([
     discount: 30,
     originalPrice: '132,000',
     currentPrice: '92,400',
-    image: '@/assets/images/beyond-class-category-cover-17.png',
+    image: classImage4,
     checked: false,
   },
 ]);

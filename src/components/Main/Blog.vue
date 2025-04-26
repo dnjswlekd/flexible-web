@@ -22,10 +22,18 @@
 import { ref } from 'vue';
 import BlogItem from '@/components/main/BlogItem.vue';
 
+import blogImg01 from '@/assets/images/blog-cover-01.png';
+import blogImg02 from '@/assets/images/blog-cover-02.png';
+import blogImg03 from '@/assets/images/blog-cover-03.png';
+
+import avatar01 from '@/assets/images/mentor-avatar-01.jpg';
+import avatar02 from '@/assets/images/mentor-avatar-02.jpg';
+import avatar03 from '@/assets/images/mentor-avatar-03.jpg';
+
 // 블로그 아이템 데이터를 배열로 관리
 const blogItems = ref([
   {
-    image: '@/assets/images/blog-cover-01.png',
+    image: blogImg01,
     category: 'Web Publishing',
     title: '퍼블리싱의 모든 것! 인라인요소, 블록요소, 인라인블록',
     description:
@@ -33,10 +41,10 @@ const blogItems = ref([
     author: '비와우산',
     date: 'May 24',
     comments: 4,
-    avatar: '@/assets/images/mentor-avatar-01.jpg',
+    avatar: avatar01,
   },
   {
-    image: '@/assets/images/blog-cover-02.png',
+    image: blogImg02,
     category: 'Web Publishing',
     title: '레이아웃 제작 실력을 높이는방법 Mondrian Layout',
     description:
@@ -44,10 +52,10 @@ const blogItems = ref([
     author: '비와우산',
     date: 'May 24',
     comments: 4,
-    avatar: '@/assets/images/mentor-avatar-02.jpg',
+    avatar: avatar02,
   },
   {
-    image: '@/assets/images/blog-cover-03.png',
+    image: blogImg03,
     category: 'Web Publishing',
     title: '예쁜게 찌그러트리는 CSS Border Radius Generator',
     description:
@@ -55,7 +63,7 @@ const blogItems = ref([
     author: '비와우산',
     date: 'May 24',
     comments: 4,
-    avatar: '@/assets/images/mentor-avatar-03.jpg',
+    avatar: avatar03,
   },
 ]);
 </script>

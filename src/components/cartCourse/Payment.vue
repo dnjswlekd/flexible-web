@@ -56,6 +56,11 @@
 <script setup>
 import { ref } from 'vue';
 
+// 이미지 import
+import naverPayImg from '@/assets/images/ct-payment-naver.png';
+import kakaoPayImg from '@/assets/images/ct-payment-kakao.png';
+import tossPayImg from '@/assets/images/ct-payment-toss.png';
+
 const props = defineProps({
   totalPrice: Number,
   originalPrice: Number,
@@ -85,21 +90,21 @@ const paymentMethods = [
     id: 'naver',
     label: '네이버페이',
     freeInterest: '',
-    imgSrc: '@/assets/images/ct-payment-naver.png',
+    imgSrc: naverPayImg,
     imgAlt: '네이버페이',
   },
   {
     id: 'kakao',
     label: '카카오페이',
     freeInterest: '',
-    imgSrc: '@/assets/images/ct-payment-kakao.png',
+    imgSrc: kakaoPayImg,
     imgAlt: '카카오페이',
   },
   {
     id: 'toss',
     label: '토스페이',
     freeInterest: '',
-    imgSrc: '@/assets/images/ct-payment-toss.png',
+    imgSrc: tossPayImg,
     imgAlt: '토스페이',
   },
 ];

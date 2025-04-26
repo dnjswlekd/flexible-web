@@ -1,6 +1,16 @@
 <script setup>
 import { ref } from 'vue';
 
+// 이미지 import
+import classCover01 from '@/assets/images/best-class-main-cover-01.png';
+import classCover02 from '@/assets/images/best-class-main-cover-02.png';
+import classCover03 from '@/assets/images/best-class-main-cover-03.png';
+import classCover04 from '@/assets/images/best-class-main-cover-04.png';
+import classCover05 from '@/assets/images/best-class-main-cover-05.png';
+import classCover06 from '@/assets/images/best-class-main-cover-06.png';
+
+// (배너는 템플릿 안에서 src로 직접 써서 괜찮음!)
+
 const bestClasses = ref([
   {
     id: 1,
@@ -10,7 +20,7 @@ const bestClasses = ref([
     duration: '16시간 30분',
     pricePrev: 132000,
     priceCurrent: 92400,
-    img: '@/assets/images/best-class-main-cover-01.png',
+    img: classCover01, // 여기 수정
     link: '/html/class-detail.html',
   },
   {
@@ -21,7 +31,7 @@ const bestClasses = ref([
     duration: '16시간 30분',
     pricePrev: 132000,
     priceCurrent: 92400,
-    img: '@/assets/images/best-class-main-cover-02.png',
+    img: classCover02,
     link: '/html/class-detail.html',
   },
   {
@@ -32,7 +42,7 @@ const bestClasses = ref([
     duration: '16시간 30분',
     pricePrev: 132000,
     priceCurrent: 92400,
-    img: '@/assets/images/best-class-main-cover-03.png',
+    img: classCover03,
     link: '/html/class-detail.html',
   },
   {
@@ -43,7 +53,7 @@ const bestClasses = ref([
     duration: '16시간 30분',
     pricePrev: 132000,
     priceCurrent: 92400,
-    img: '@/assets/images/best-class-main-cover-04.png',
+    img: classCover04,
     link: '/html/class-detail.html',
   },
   {
@@ -54,7 +64,7 @@ const bestClasses = ref([
     duration: '16시간 30분',
     pricePrev: 132000,
     priceCurrent: 92400,
-    img: '@/assets/images/best-class-main-cover-05.png',
+    img: classCover05,
     link: '/html/class-detail.html',
   },
   {
@@ -65,7 +75,7 @@ const bestClasses = ref([
     duration: '16시간 30분',
     pricePrev: 132000,
     priceCurrent: 92400,
-    img: '@/assets/images/best-class-main-cover-06.png',
+    img: classCover06,
     link: '/html/class-detail.html',
   },
 ]);

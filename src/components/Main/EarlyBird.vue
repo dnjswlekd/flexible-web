@@ -30,6 +30,9 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue';
 
+// 이미지 import
+import earlyBirdBanner from '@/assets/images/banner-early-bird-01.png';
+
 const countdown = ref({
   days: '00',
   hours: '00',
@@ -40,7 +43,9 @@ const earlyBirdInfo = ref('조기인원 마감 시 이벤트가 종료됩니다.
 const title = ref('얼리버드~ 왔어요');
 const subtitle = ref('얼리버드 선착순 할인 이벤트, 신규강의 30% 할인');
 const hashtags = ref(['#빅찬스', '#세일', '#30%']);
-const imageSrc = ref('@/assets/images/banner-early-bird-01.png');
+
+// 여기 수정! 문자열X, import한 이미지로 세팅
+const imageSrc = ref(earlyBirdBanner);
 
 let countdownInterval;
 
