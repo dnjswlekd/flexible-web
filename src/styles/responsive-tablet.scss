@@ -1,5 +1,6 @@
-// Import Local SCSS files
-@import 'variables', 'fonts', 'reset';
+@use './variables' as *;
+@use './reset' as *;
+@use './fonts' as *;
 
 /* Responsive for Tablet */
 @media (min-width: 768px) and (max-width: 1024px) {

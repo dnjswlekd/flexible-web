@@ -10,7 +10,7 @@
           <p>완강 후 한층 향상된 퍼블리싱 실력을 갖게 되실거라고 확신합니다!</p>
         </div>
         <div class="cover-image">
-          <img src="src/assets/images/ct-class-detail-main-02.png" alt="" />
+          <img src="@/assets/images/ct-class-detail-main-02.png" alt="" />
         </div>
       </div>
     </section>
@@ -58,7 +58,7 @@
                 됩니다.
               </p>
               <div class="sub-wrap">
-                <img src="src/assets/images/ct-class-detail-01.png" alt="" />
+                <img src="@/assets/images/ct-class-detail-01.png" alt="" />
                 <h2>
                   "모바일 웹 UI 디자인 및 퍼블리싱 제작 필수 이론과 노하우
                   체계적인 실전 제작"
@@ -123,7 +123,7 @@
                   </li>
                 </ul>
                 <div class="sub-wrap">
-                  <img src="src/assets/images/ct-class-detail-02.png" alt="" />
+                  <img src="@/assets/images/ct-class-detail-02.png" alt="" />
                 </div>
                 <h3 class="sub-wrap-header">다양한 파일 제공 🗂️</h3>
                 <p>📝 Figma 디자인 파일, 소스 파일, 퍼블리싱 완성본</p>
@@ -488,7 +488,7 @@
               <div class="review-user-comment-group">
                 <div class="review-user-comment">
                   <div class="user-avatar">
-                    <img src="src/assets/images/mentor-avatar-01.jpg" alt="" />
+                    <img src="@/assets/images/mentor-avatar-01.jpg" alt="" />
                   </div>
                   <div class="user-comment">
                     <div class="user-name-date">
@@ -507,7 +507,7 @@
                 </div>
                 <div class="review-user-comment">
                   <div class="user-avatar">
-                    <img src="src/assets/images/mentor-avatar-02.jpg" alt="" />
+                    <img src="@/assets/images/mentor-avatar-02.jpg" alt="" />
                   </div>
                   <div class="user-comment">
                     <div class="user-name-date">
@@ -526,7 +526,7 @@
                 </div>
                 <div class="review-user-comment">
                   <div class="user-avatar">
-                    <img src="src/assets/images/mentor-avatar-03.jpg" alt="" />
+                    <img src="@/assets/images/mentor-avatar-03.jpg" alt="" />
                   </div>
                   <div class="user-comment">
                     <div class="user-name-date">
@@ -548,7 +548,7 @@
                 </div>
                 <div class="review-user-comment">
                   <div class="user-avatar">
-                    <img src="src/assets/images/mentor-avatar-04.jpg" alt="" />
+                    <img src="@/assets/images/mentor-avatar-04.jpg" alt="" />
                   </div>
                   <div class="user-comment">
                     <div class="user-name-date">
@@ -572,7 +572,7 @@
                 </div>
                 <div class="review-user-comment">
                   <div class="user-avatar">
-                    <img src="src/assets/images/mentor-avatar-05.jpg" alt="" />
+                    <img src="@/assets/images/mentor-avatar-05.jpg" alt="" />
                   </div>
                   <div class="user-comment">
                     <div class="user-name-date">
@@ -735,7 +735,7 @@
             <div class="class-detail-wrap">
               <div class="mentor-profile-summary">
                 <div class="mentor-avatar">
-                  <img src="src/assets/images/mentor-avatar-21.jpg" alt="" />
+                  <img src="@/assets/images/mentor-avatar-21.jpg" alt="" />
                 </div>
                 <div class="mentor-slogan">
                   <h3>코딩웍스(Codingworks)</h3>
@@ -846,7 +846,7 @@
             <div class="class-detail-sidebar-wrap group-mentor-summary">
               <div class="mentor-class-summary">
                 <div class="mentor-avatar">
-                  <img src="src/assets/images/mentor-avatar-21.jpg" alt="" />
+                  <img src="@/assets/images/mentor-avatar-21.jpg" alt="" />
                 </div>
                 <ul class="class-summary-list">
                   <li>멘토 : 코딩웍스(Codingworks)</li>

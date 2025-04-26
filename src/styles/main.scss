@@ -1,5 +1,6 @@
-/* Import Local SCSS Files */
-@import 'variables', 'reset', 'fonts';
+@use './variables' as *;
+@use './reset' as *;
+@use './fonts' as *;
 
 /* Mixin Group */
 @mixin close-modal {
@@ -199,7 +200,7 @@ header {
       .trigger {
         &:before {
           content: '';
-          background: url('src/assets/images/icon-category.png');
+          background: url('@/assets/images/icon-category.png');
           width: 20px;
           height: 18px;
           display: inline-block;
@@ -836,11 +837,11 @@ footer {
         width: 110px;
         margin-right: 5px;
         text-align: center;
+        margin-bottom: 30px;
       }
-      margin-bottom: 30px;
       select {
         appearance: none;
-        background: url('src/assets/images/icon-select.svg') no-repeat center
+        background: url('@/assets/images/icon-select.svg') no-repeat center
           right 10px;
         background-size: 12px;
       }
@@ -1222,7 +1223,7 @@ footer {
                 height: 20px;
                 margin-right: 3px;
                 transform: translateY(3px);
-                background: url('src/assets/images/icon-custom-radio.png')
+                background: url('@/assets/images/icon-custom-radio.png')
                   no-repeat;
                 background-position: left;
               }
@@ -1254,7 +1255,7 @@ footer {
 /* ############ Class Detail : class-detail.html ############ */
 .class-detail-image {
   padding: 0 !important;
-  background: url('src/assets/images/ct-class-detail-main-01.png') no-repeat
+  background: url('@/assets/images/ct-class-detail-main-01.png') no-repeat
     center center;
   background-size: cover;
   .class-detail-image-inner {
@@ -2025,19 +2026,19 @@ footer {
         background-size: 20px;
         color: $white;
         &.kakao {
-          background-image: url('src/assets/images/icon-kakao.svg');
+          background-image: url('@/assets/images/icon-kakao.svg');
           background-color: #ffd912;
         }
         &.facebook {
-          background-image: url('src/assets/images/icon-facebook.svg');
+          background-image: url('@/assets/images/icon-facebook.svg');
           background-color: #006be5;
         }
         &.apple {
-          background-image: url('src/assets/images/icon-apple.svg');
+          background-image: url('@/assets/images/icon-apple.svg');
           background-color: #333;
         }
         &.email {
-          background-image: url('src/assets/images/icon-email.svg');
+          background-image: url('@/assets/images/icon-email.svg');
           background-color: #fff;
           border: 1px solid $dim-gray;
           color: $dark-black;

@@ -46,7 +46,7 @@ const cartItems = ref([
     discount: 30,
     originalPrice: '132,000',
     currentPrice: '92,400',
-    image: 'src/assets/images/beyond-class-category-cover-16.png',
+    image: '@/assets/images/beyond-class-category-cover-16.png',
     checked: false,
   },
   {
@@ -58,7 +58,7 @@ const cartItems = ref([
     discount: 20,
     originalPrice: '46,200',
     currentPrice: '36,960',
-    image: 'src/assets/images/beyond-class-category-cover-03.png',
+    image: '@/assets/images/beyond-class-category-cover-03.png',
     checked: false,
   },
   {
@@ -71,7 +71,7 @@ const cartItems = ref([
     discount: 15,
     originalPrice: '166,100',
     currentPrice: '141,185',
-    image: 'src/assets/images/beyond-class-category-cover-01.png',
+    image: '@/assets/images/beyond-class-category-cover-01.png',
     checked: false,
   },
   {
@@ -83,7 +83,7 @@ const cartItems = ref([
     discount: 30,
     originalPrice: '132,000',
     currentPrice: '92,400',
-    image: 'src/assets/images/beyond-class-category-cover-17.png',
+    image: '@/assets/images/beyond-class-category-cover-17.png',
     checked: false,
   },
 ]);

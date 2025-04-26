@@ -17,7 +17,7 @@ export const classes1 = [
     priceCurrent: 92400,
     rating: 4.9,
     students: 1234,
-    img: 'src/assets/images/beyond-class-main-cover-01.png',
+    img: '@/assets/images/beyond-class-main-cover-01.png',
     link: '/html/class-detail.html',
   },
   {
@@ -30,7 +30,7 @@ export const classes1 = [
     priceCurrent: 92400,
     rating: 5.0,
     students: 1234,
-    img: 'src/assets/images/beyond-class-main-cover-02.png',
+    img: '@/assets/images/beyond-class-main-cover-02.png',
     link: '/html/class-detail.html',
   },
   {
@@ -43,7 +43,7 @@ export const classes1 = [
     priceCurrent: 92400,
     rating: 4.9,
     students: 1234,
-    img: 'src/assets/images/beyond-class-main-cover-03.png',
+    img: '@/assets/images/beyond-class-main-cover-03.png',
     link: '/html/class-detail.html',
   },
   {
@@ -56,7 +56,7 @@ export const classes1 = [
     priceCurrent: 92400,
     rating: 4.9,
     students: 1234,
-    img: 'src/assets/images/beyond-class-main-cover-04.png',
+    img: '@/assets/images/beyond-class-main-cover-04.png',
     link: '/html/class-detail.html',
   },
   {
@@ -69,7 +69,7 @@ export const classes1 = [
     priceCurrent: 92400,
     rating: 4.9,
     students: 1234,
-    img: 'src/assets/images/beyond-class-main-cover-05.png',
+    img: '@/assets/images/beyond-class-main-cover-05.png',
     link: '/html/class-detail.html',
   },
   {
@@ -82,7 +82,7 @@ export const classes1 = [
     priceCurrent: 92400,
     rating: 4.9,
     students: 1234,
-    img: 'src/assets/images/beyond-class-main-cover-06.png',
+    img: '@/assets/images/beyond-class-main-cover-06.png',
     link: '/html/class-detail.html',
   },
   {
@@ -95,7 +95,7 @@ export const classes1 = [
     priceCurrent: 92400,
     rating: 4.9,
     students: 1234,
-    img: 'src/assets/images/beyond-class-main-cover-07.png',
+    img: '@/assets/images/beyond-class-main-cover-07.png',
     link: '/html/class-detail.html',
   },
   {
@@ -108,7 +108,7 @@ export const classes1 = [
     priceCurrent: 92400,
     rating: 4.9,
     students: 1234,
-    img: 'src/assets/images/beyond-class-main-cover-08.png',
+    img: '@/assets/images/beyond-class-main-cover-08.png',
     link: '/html/class-detail.html',
   },
 ];
@@ -124,7 +124,7 @@ export const classes2 = [
     priceCurrent: 92400,
     rating: 4.9,
     students: 1234,
-    img: 'src/assets/images/basic-class-main-cover-01.png',
+    img: '@/assets/images/basic-class-main-cover-01.png',
     link: '/html/class-detail.html',
   },
   {
@@ -137,7 +137,7 @@ export const classes2 = [
     priceCurrent: 92400,
     rating: 4.9,
     students: 1234,
-    img: 'src/assets/images/basic-class-main-cover-02.png',
+    img: '@/assets/images/basic-class-main-cover-02.png',
     link: '/html/class-detail.html',
   },
   {
@@ -150,7 +150,7 @@ export const classes2 = [
     priceCurrent: 92400,
     rating: 4.9,
     students: 1234,
-    img: 'src/assets/images/basic-class-main-cover-03.png',
+    img: '@/assets/images/basic-class-main-cover-03.png',
     link: '/html/class-detail.html',
   },
   {
@@ -163,7 +163,7 @@ export const classes2 = [
     priceCurrent: 92400,
     rating: 4.9,
     students: 1234,
-    img: 'src/assets/images/basic-class-main-cover-04.png',
+    img: '@/assets/images/basic-class-main-cover-04.png',
     link: '/html/class-detail.html',
   },
   {
@@ -176,7 +176,7 @@ export const classes2 = [
     priceCurrent: 92400,
     rating: 4.9,
     students: 1234,
-    img: 'src/assets/images/basic-class-main-cover-05.png',
+    img: '@/assets/images/basic-class-main-cover-05.png',
     link: '/html/class-detail.html',
   },
   {
@@ -189,7 +189,7 @@ export const classes2 = [
     priceCurrent: 92400,
     rating: 4.9,
     students: 1234,
-    img: 'src/assets/images/basic-class-main-cover-06.png',
+    img: '@/assets/images/basic-class-main-cover-06.png',
     link: '/html/class-detail.html',
   },
   {
@@ -202,7 +202,7 @@ export const classes2 = [
     priceCurrent: 92400,
     rating: 4.9,
     students: 1234,
-    img: 'src/assets/images/basic-class-main-cover-07.png',
+    img: '@/assets/images/basic-class-main-cover-07.png',
     link: '/html/class-detail.html',
   },
   {
@@ -215,7 +215,7 @@ export const classes2 = [
     priceCurrent: 92400,
     rating: 4.9,
     students: 1234,
-    img: 'src/assets/images/basic-class-main-cover-08.png',
+    img: '@/assets/images/basic-class-main-cover-08.png',
     link: '/html/class-detail.html',
   },
 ];

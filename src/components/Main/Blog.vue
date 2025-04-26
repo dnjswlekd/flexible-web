@@ -25,7 +25,7 @@ import BlogItem from '@/components/main/BlogItem.vue';
 // 블로그 아이템 데이터를 배열로 관리
 const blogItems = ref([
   {
-    image: 'src/assets/images/blog-cover-01.png',
+    image: '@/assets/images/blog-cover-01.png',
     category: 'Web Publishing',
     title: '퍼블리싱의 모든 것! 인라인요소, 블록요소, 인라인블록',
     description:
@@ -33,10 +33,10 @@ const blogItems = ref([
     author: '비와우산',
     date: 'May 24',
     comments: 4,
-    avatar: 'src/assets/images/mentor-avatar-01.jpg',
+    avatar: '@/assets/images/mentor-avatar-01.jpg',
   },
   {
-    image: 'src/assets/images/blog-cover-02.png',
+    image: '@/assets/images/blog-cover-02.png',
     category: 'Web Publishing',
     title: '레이아웃 제작 실력을 높이는방법 Mondrian Layout',
     description:
@@ -44,10 +44,10 @@ const blogItems = ref([
     author: '비와우산',
     date: 'May 24',
     comments: 4,
-    avatar: 'src/assets/images/mentor-avatar-02.jpg',
+    avatar: '@/assets/images/mentor-avatar-02.jpg',
   },
   {
-    image: 'src/assets/images/blog-cover-03.png',
+    image: '@/assets/images/blog-cover-03.png',
     category: 'Web Publishing',
     title: '예쁜게 찌그러트리는 CSS Border Radius Generator',
     description:
@@ -55,7 +55,7 @@ const blogItems = ref([
     author: '비와우산',
     date: 'May 24',
     comments: 4,
-    avatar: 'src/assets/images/mentor-avatar-03.jpg',
+    avatar: '@/assets/images/mentor-avatar-03.jpg',
   },
 ]);
 </script>

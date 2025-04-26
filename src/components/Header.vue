@@ -52,8 +52,8 @@ import { ref, onMounted, onUnmounted } from 'vue';
 import { useRouter } from 'vue-router';
 import LoginModal from '@/components/LoginModal.vue';
 
-const logoSrc = 'src/assets/images/logo-beyond-insight.png';
-const avatarSrc = 'src/assets/images/mentor-avatar-21.jpg';
+const logoSrc = '@/assets/images/logo-beyond-insight.png';
+const avatarSrc = '@/assets/images/mentor-avatar-21.jpg';
 const cartCount = ref(2);
 const alarmCount = ref(9);
 const searchQuery = ref('');

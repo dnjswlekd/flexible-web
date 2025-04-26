@@ -10,7 +10,7 @@ const bestClasses = ref([
     duration: '16시간 30분',
     pricePrev: 132000,
     priceCurrent: 92400,
-    img: 'src/assets/images/best-class-main-cover-01.png',
+    img: '@/assets/images/best-class-main-cover-01.png',
     link: '/html/class-detail.html',
   },
   {
@@ -21,7 +21,7 @@ const bestClasses = ref([
     duration: '16시간 30분',
     pricePrev: 132000,
     priceCurrent: 92400,
-    img: 'src/assets/images/best-class-main-cover-02.png',
+    img: '@/assets/images/best-class-main-cover-02.png',
     link: '/html/class-detail.html',
   },
   {
@@ -32,7 +32,7 @@ const bestClasses = ref([
     duration: '16시간 30분',
     pricePrev: 132000,
     priceCurrent: 92400,
-    img: 'src/assets/images/best-class-main-cover-03.png',
+    img: '@/assets/images/best-class-main-cover-03.png',
     link: '/html/class-detail.html',
   },
   {
@@ -43,7 +43,7 @@ const bestClasses = ref([
     duration: '16시간 30분',
     pricePrev: 132000,
     priceCurrent: 92400,
-    img: 'src/assets/images/best-class-main-cover-04.png',
+    img: '@/assets/images/best-class-main-cover-04.png',
     link: '/html/class-detail.html',
   },
   {
@@ -54,7 +54,7 @@ const bestClasses = ref([
     duration: '16시간 30분',
     pricePrev: 132000,
     priceCurrent: 92400,
-    img: 'src/assets/images/best-class-main-cover-05.png',
+    img: '@/assets/images/best-class-main-cover-05.png',
     link: '/html/class-detail.html',
   },
   {
@@ -65,7 +65,7 @@ const bestClasses = ref([
     duration: '16시간 30분',
     pricePrev: 132000,
     priceCurrent: 92400,
-    img: 'src/assets/images/best-class-main-cover-06.png',
+    img: '@/assets/images/best-class-main-cover-06.png',
     link: '/html/class-detail.html',
   },
 ]);

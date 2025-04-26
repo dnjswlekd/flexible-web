@@ -1,5 +1,6 @@
-// Import Local SCSS files
-@import 'variables', 'fonts', 'reset';
+@use './variables' as *;
+@use './reset' as *;
+@use './fonts' as *;
 
 /* Responsive for Mobile */
 @media (max-width: 767px) {
@@ -44,7 +45,7 @@
             display: none;
           }
           &:before {
-            background: url('src/assets/images/icon-category-search.png');
+            background: url('@/assets/images/icon-category-search.png');
           }
         }
         .special-navi {

@@ -40,7 +40,7 @@ const earlyBirdInfo = ref('조기인원 마감 시 이벤트가 종료됩니다.
 const title = ref('얼리버드~ 왔어요');
 const subtitle = ref('얼리버드 선착순 할인 이벤트, 신규강의 30% 할인');
 const hashtags = ref(['#빅찬스', '#세일', '#30%']);
-const imageSrc = ref('src/assets/images/banner-early-bird-01.png');
+const imageSrc = ref('@/assets/images/banner-early-bird-01.png');
 
 let countdownInterval;
 
