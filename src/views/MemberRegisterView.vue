@@ -6,7 +6,7 @@
           <h1 class="login-slogan">
             나를 성장시키는 배움,<br /><em>비욘드 인사이트</em>에서 시작하세요.
           </h1>
-          <img src="/src/assets/images/ct-modal-01.png" alt="" />
+          <img src="src/assets/images/ct-modal-01.png" alt="" />
         </div>
         <div class="login-field">
           <div>
