@@ -1,1 +1,0 @@
-import{c as r,a as t,o}from"./index-lF2O3Phe.js";const n={__name:"MemberRegisterView",setup(a){return(l,e)=>(o(),r("div",null,e[0]||(e[0]=[t("h1",null,"MemberRegisterView Page",-1),t("p",null,"Welcome to the home page!",-1)])))}};export{n as default};

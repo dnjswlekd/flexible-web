@@ -27,8 +27,14 @@ import 'swiper/swiper-bundle.css';
           <Swiper
             :spaceBetween="30"
             :slidesPerView="4"
-            :navigation="true"
+            :pagination="{ clickable: true }"
             :loop="true"
+            :breakpoints="{
+              1024: { slidesPerView: 4 },
+              768: { slidesPerView: 3 },
+              480: { slidesPerView: 2 },
+              320: { slidesPerView: 2 },
+            }"
           >
             <SwiperSlide v-for="item in classes1" :key="item.id">
               <FocusClassItem :item="item" />
@@ -55,8 +61,14 @@ import 'swiper/swiper-bundle.css';
           <Swiper
             :spaceBetween="30"
             :slidesPerView="4"
-            :navigation="true"
+            :pagination="{ clickable: true }"
             :loop="true"
+            :breakpoints="{
+              1024: { slidesPerView: 4 },
+              768: { slidesPerView: 3 },
+              480: { slidesPerView: 2 },
+              320: { slidesPerView: 2 },
+            }"
           >
             <SwiperSlide v-for="item in classes2" :key="item.id">
               <FocusClassItem :item="item" />
@@ -69,11 +81,15 @@ import 'swiper/swiper-bundle.css';
 </template>
 
 <style lang="scss" scoped>
-/* Swiper 기본 스타일 */
-.swiper-button-next,
-.swiper-button-prev {
+.swiper-pagination-bullet {
   background-color: #000;
-  color: #fff;
-  padding: 10px;
+  width: 10px;
+  height: 10px;
+  opacity: 0.5;
+  transition: opacity 0.3s;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
 }
 </style>

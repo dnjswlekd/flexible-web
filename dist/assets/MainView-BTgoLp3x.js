@@ -1,1 +1,0 @@
-import{c as o,a,o as t}from"./index-lF2O3Phe.js";const s={__name:"MainView",setup(n){return(l,e)=>(t(),o("div",null,e[0]||(e[0]=[a("h1",null,"Main Page",-1),a("p",null,"Welcome to the home page!",-1)])))}};export{s as default};

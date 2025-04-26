@@ -13,6 +13,7 @@
           />
           <img src="@/assets/images/bi-search.svg" alt="Search Icon" />
         </div>
+
         <div class="login-register-buttons">
           <button @click="openLoginModal">로그인</button>
           <button class="btn-register" @click="redirectToRegister">

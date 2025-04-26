@@ -1,1 +1,0 @@
-import{c as a,a as o,o as t}from"./index-lF2O3Phe.js";const n={__name:"TakeCourseView",setup(r){return(l,e)=>(t(),a("div",null,e[0]||(e[0]=[o("h1",null,"TakeCourseView Page",-1),o("p",null,"Welcome to the home page!",-1)])))}};export{n as default};

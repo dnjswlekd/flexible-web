@@ -44,7 +44,7 @@
             display: none;
           }
           &:before {
-            background: url('/images/icon-category-search.png');
+            background: url('src/assets/images/icon-category-search.png');
           }
         }
         .special-navi {
@@ -230,7 +230,7 @@
       .focus-class-content {
         overflow-x: hidden;
         @at-root .focus-class-items {
-          width: 480px;
+          // width: 480px;
           .focus-class-item {
             .thum {
               height: 120px;
@@ -578,6 +578,6 @@
 
 @media (min-width: 400px) and (max-width: 767px) {
   .focus-class-items {
-    width: 560px;
+    // width: 560px;
   }
 }
