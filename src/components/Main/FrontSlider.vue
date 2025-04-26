@@ -29,12 +29,17 @@ import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/swiper-bundle.css';
 import { ref } from 'vue';
 
+// 이미지 파일을 import
+import ctFront01 from '@/assets/images/ct-front-01.png';
+import ctFront02 from '@/assets/images/ct-front-02.png';
+import ctFront03 from '@/assets/images/ct-front-03.png';
+
 const slides = ref([
   {
     title: 'EVENT',
     description: '11월 신규회원 할인혜택!<br>무료 클래스부터 얼리버드 할인까지',
     date: '2022.11.1~11.30',
-    image: '@/assets/images/ct-front-01.png',
+    image: ctFront01, // import한 이미지 사용
     bgColor: '#F8EFE4',
   },
   {
@@ -42,7 +47,7 @@ const slides = ref([
     description:
       '웹 퍼블리싱 입문부터 중상급까지<br>코딩웍스 퍼블리셔 취업 로드맵',
     date: null,
-    image: '@/assets/images/ct-front-02.png',
+    image: ctFront02, // import한 이미지 사용
     bgColor: '#f6e58d',
   },
   {
@@ -50,7 +55,7 @@ const slides = ref([
     description:
       '누구나 쉽게 이해하는 웹개발<br>수강생에게 인정받은 검증된 강의들',
     date: '2022.11.1~11.30',
-    image: '@/assets/images/ct-front-03.png',
+    image: ctFront03, // import한 이미지 사용
     bgColor: '#c8d6e5',
   },
 ]);
